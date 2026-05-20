@@ -6,9 +6,7 @@ def filter_task_4_1(numbers):
     Returns:
         list of odd numbers
     """
-    a=[]
-    for i in numbers:
-        if i%2==1:
-            a.append(i)
-    return a
-print(filter_task_4_1(numbers=[1,2,3,4,5]))
+
+    return numbers%2==1
+numbers=[1, 2, 3, 4, 5]
+print(list(filter(filter_task_4_1,numbers)))
