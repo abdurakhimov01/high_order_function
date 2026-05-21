@@ -6,4 +6,6 @@ def filter_task_4_3(numbers):
     Returns:
         list of numbers greater than 10
     """
-    return
+    return numbers>10
+w=[5, 11, 20, 7, 10]
+print(list(filter(filter_task_4_3,w)))
