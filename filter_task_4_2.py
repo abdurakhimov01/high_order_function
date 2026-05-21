@@ -6,10 +6,4 @@ def filter_task_4_2(words):
     Returns:
         list of words longer than 4 letters
     """
-    words=["hi", "hello", "world", "cat"]
-    o=[]
-    for i in words:
-        if len(i)>4:
-            o.append(i)
-    return o
-print(filter_task_4_2(words=["hi", "hello", "world", "cat"]))
+    return 
