@@ -6,4 +6,12 @@ def min_task_1_3(words):
     Returns:
         string with fewest vowels
     """
-    return
+    k="aeiouAEIOU"
+    def hi(x):
+        c=0
+        for i in x:
+            if i in k:
+                c+=1
+        return c
+    return min(words, key=hi)
+print(min_task_1_3(words=["book", "sky", "quiet", "data"]))
