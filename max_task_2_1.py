@@ -6,4 +6,5 @@ def max_task_2_1(numbers):
     Returns:
         largest number
     """
-    return
+    return max(numbers)
+print(max_task_2_1(numbers=[7,4,9,1]))
