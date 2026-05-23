@@ -6,4 +6,5 @@ def min_task_1_5(tuples):
     Returns:
         tuple with smallest second element
     """
-    return
+    return min(tuples, key=lambda x: x[1])
+print(min_task_1_5(tuples=[(1, 3), (2, 2), (3, 1)]))
