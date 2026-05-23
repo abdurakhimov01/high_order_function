@@ -6,4 +6,5 @@ def max_task_2_3(names):
     Returns:
         name with most letters
     """
-    return
+    return max(names, key=len)
+print(max_task_2_3(names=["Ann", "Robert", "Charlotte", "Mike"]))
